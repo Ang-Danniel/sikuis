@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Structural model bertujuan untuk:",
+    "a": "Mendesain UI",
+    "b": "Merepresentasikan objek dan relasinya untuk menjembatani dunia nyata dan perangkat lunak",
+    "c": "Mengukur performa jaringan",
+    "d": "Menentukan sprint backlog",
+    "kunci": "b",
+    "penjelasan": "Structural model mengurangi semantic gap dan membentuk kosakata bersama pengguna-analis.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Tiga tipe relasi dasar di UML adalah:",
+    "a": "Aggregation, Reflection, Projection",
+    "b": "Generalization, Aggregation, Association",
+    "c": "Association, Transition, Dependency",
+    "d": "Inheritance, Realization, State",
+    "kunci": "b",
+    "penjelasan": "Generalization (pewarisan), Aggregation (bagian-keseluruhan), Association (relasi umum).",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Perbedaan aggregation vs composition:",
+    "a": "Tidak ada perbedaan",
+    "b": "Pada composition, bagian tidak dapat eksis tanpa keseluruhan",
+    "c": "Aggregation lebih kuat dari composition",
+    "d": "Composition membolehkan bagian berdiri sendiri",
+    "kunci": "b",
+    "penjelasan": "Composition = strong aggregation; bagian bergantung pada keseluruhan.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "CRC cards membantu:",
+    "a": "Menentukan IP address",
+    "b": "Mengidentifikasi kelas, tanggung jawab, dan kolaborator",
+    "c": "Membuat DFD",
+    "d": "Menentukan user stories",
+    "kunci": "b",
+    "penjelasan": "CRC memetakan knowing/doing responsibility dan kolaborasi antar objek.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Visibility atribut '+' pada class diagram berarti:",
+    "a": "Private",
+    "b": "Protected",
+    "c": "Public",
+    "d": "Package",
+    "kunci": "c",
+    "penjelasan": "UML: + public, - private, # protected.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Multiplicity '1..*' pada asosiasi berarti:",
+    "a": "Tepat satu",
+    "b": "Nol atau satu",
+    "c": "Satu atau lebih",
+    "d": "Nol atau lebih",
+    "kunci": "c",
+    "penjelasan": "1..* = satu atau lebih.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "A common language dari structural model berarti:",
+    "a": "Bahasa pemrograman tertentu",
+    "b": "Kosakata bersama antara pengguna dan analis tentang kelas dan relasinya",
+    "c": "Bahasa DBMS",
+    "d": "Bahasa testing",
+    "kunci": "b",
+    "penjelasan": "Membuat kosakata bersama menurunkan ambiguitas.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Association class digunakan ketika:",
+    "a": "Relasi memerlukan properti/atribut sendiri",
+    "b": "Tidak ada atribut di kelas",
+    "c": "Semua relasi bersifat komposisi",
+    "d": "Generalization digunakan",
+    "kunci": "a",
+    "penjelasan": "Association class melekat pada relasi (sering many-to-many) dan punya atribut sendiri.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Objek dapat diidentifikasi dari deskripsi use case melalui:",
+    "a": "Analisis kata kerja untuk kelas",
+    "b": "Analisis kata benda untuk kandidat kelas dan kata kerja untuk operasi",
+    "c": "Hanya brainstorming",
+    "d": "Entity-relationship diagram",
+    "kunci": "b",
+    "penjelasan": "Noun → kelas; verb → operasi, lalu diperkaya brainstorming/patterns.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Hubungan antara structural model dan use case:",
+    "a": "Tidak ada hubungan",
+    "b": "Use case/DFD memberi masukan untuk merancang kelas di class diagram",
+    "c": "Structural model menggantikan use case",
+    "d": "Structural model tidak boleh diubah setelah analisis",
+    "kunci": "b",
+    "penjelasan": "Proses dan data pada use case/DFD menginformasikan pemodelan kelas.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

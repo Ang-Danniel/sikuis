@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Tujuan functional modeling dengan Use Case adalah:",
+    "a": "Menentukan struktur database fisik",
+    "b": "Menggambarkan fungsionalitas sistem dan interaksi dengan aktor",
+    "c": "Mengganti semua diagram lain",
+    "d": "Meningkatkan performa runtime",
+    "kunci": "b",
+    "penjelasan": "Use Case memetakan apa yang sistem lakukan dan siapa yang berinteraksi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Elemen inti Use Case Diagram adalah:",
+    "a": "Class, object, package",
+    "b": "Use case, actor, system boundary",
+    "c": "Activity, swimlane, guard",
+    "d": "State, event, transition",
+    "kunci": "b",
+    "penjelasan": "Tiga inti: use case, actor, boundary.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Relasi «include» menyatakan bahwa:",
+    "a": "Use case anak menggantikan induk",
+    "b": "Perilaku wajib dari use case lain disertakan",
+    "c": "Perilaku opsional",
+    "d": "Aktor digeneralisasi",
+    "kunci": "b",
+    "penjelasan": "Include = kewajiban menyertakan perilaku use case lain.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Relasi «extend» menyatakan:",
+    "a": "Perluasan perilaku opsional yang terjadi pada kondisi tertentu",
+    "b": "Pewarisan antar aktor",
+    "c": "Asosiasi data",
+    "d": "Komposisi antar use case",
+    "kunci": "a",
+    "penjelasan": "Extend menambahkan perilaku opsional pada extension points tertentu.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Kesalahan umum: mengidentifikasi 'input username' sebagai use case. Ini salah karena:",
+    "a": "Tidak ada aktor",
+    "b": "Itu hanya langkah di dalam use case lain (mis. Login)",
+    "c": "Tidak ada boundary",
+    "d": "Tidak ada hubungan",
+    "kunci": "b",
+    "penjelasan": "Langkah internal tidak dinaikkan menjadi use case terpisah.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Aktor dapat berupa:",
+    "a": "Hanya manusia",
+    "b": "Entitas eksternal manusia atau non-manusia (sistem lain/perangkat)",
+    "c": "Hanya sistem internal",
+    "d": "Hanya organisasi",
+    "kunci": "b",
+    "penjelasan": "Aktor mencakup manusia maupun non-manusia yang berinteraksi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Generalization pada aktor berarti:",
+    "a": "Dua aktor harus berkoordinasi menjalankan satu use case",
+    "b": "Aktor khusus mewarisi kemampuan dari aktor umum",
+    "c": "Aktor melakukan extend",
+    "d": "Boundary melebar",
+    "kunci": "b",
+    "penjelasan": "Aktor spesifik mewarisi relasi/kemampuan dari aktor umum.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Bagaimana menghindari kesalahan 'double actor association' pada shared use case?",
+    "a": "Hubungkan dua aktor langsung ke satu use case yang sama-sama memulai",
+    "b": "Tentukan aktor pemicu utama; aktor lain dapat muncul sebagai partisipan tidak memicu",
+    "c": "Hilangkan use case",
+    "d": "Gabungkan aktor",
+    "kunci": "b",
+    "penjelasan": "Use case dipicu satu aktor; interaksi dengan sistem lain dimodelkan berbeda.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Use case specification (UCS) digunakan untuk:",
+    "a": "Menulis kode",
+    "b": "Merinci alur dasar, alternatif, precondition, postcondition, dan exception",
+    "c": "Menggambar class diagram",
+    "d": "Menentukan indeks database",
+    "kunci": "b",
+    "penjelasan": "UCS memformalkan perilaku terperinci tiap use case.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Kapan paket use case diperlukan?",
+    "a": "Ketika jumlah use case terlalu sedikit",
+    "b": "Ketika terlalu banyak use case dan perlu dikelompokkan secara logis",
+    "c": "Ketika tidak ada aktor",
+    "d": "Saat sistem tanpa boundary",
+    "kunci": "b",
+    "penjelasan": "Packaging memecah kompleksitas dengan pengelompokan logis.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

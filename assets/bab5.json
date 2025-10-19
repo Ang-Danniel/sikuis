@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Definisi requirement dalam analisis sistem adalah:",
+    "a": "Bagaimana sistem diimplementasikan secara teknis",
+    "b": "Pernyataan tentang apa yang harus dilakukan sistem atau karakteristik yang harus dimiliki",
+    "c": "Daftar bug yang harus diperbaiki",
+    "d": "Rencana pengujian sistem",
+    "kunci": "b",
+    "penjelasan": "Requirement menyatakan 'apa' yang diperlukan, bukan 'bagaimana' implementasinya.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Dua jenis requirement utama adalah:",
+    "a": "Teknis dan bisnis",
+    "b": "Fungsional dan nonfungsional",
+    "c": "Struktural dan perilaku",
+    "d": "Internal dan eksternal",
+    "kunci": "b",
+    "penjelasan": "Fungsional: proses & informasi; nonfungsional: atribut kualitas (URPS+, dsb).",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Contoh requirement nonfungsional adalah:",
+    "a": "Sistem harus menyediakan fitur login",
+    "b": "Sistem harus memproses transaksi dalam ≤2 detik pada puncak beban",
+    "c": "Sistem harus menyimpan data pelanggan",
+    "d": "Sistem dapat menambahkan item ke keranjang",
+    "kunci": "b",
+    "penjelasan": "Performa (≤2 detik) adalah atribut kualitas, yaitu nonfungsional.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Fase Requirements Engineering yang menekankan penggalian kebutuhan dari stakeholder adalah:",
+    "a": "Inception",
+    "b": "Elicitation",
+    "c": "Elaboration",
+    "d": "Validation",
+    "kunci": "b",
+    "penjelasan": "Elicitation: menggali kebutuhan dari semua stakeholder.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Teknik JAD (Joint Application Development) melibatkan:",
+    "a": "Satu developer dan satu user",
+    "b": "Tim proyek, pengguna, dan manajemen dalam sesi terfasilitasi",
+    "c": "Hanya kuesioner online",
+    "d": "Observasi tanpa interaksi",
+    "kunci": "b",
+    "penjelasan": "JAD mempertemukan banyak pihak dengan fasilitator dan pencatat.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Ciri requirement yang baik antara lain:",
+    "a": "Ambigu, tidak testable, tidak traceable",
+    "b": "Spesifik, testable, traceable",
+    "c": "Negatif dan sulit diverifikasi",
+    "d": "Longgar dan bebas interpretasi",
+    "kunci": "b",
+    "penjelasan": "Requirement harus spesifik, dapat diuji, dan punya identitas untuk pelacakan.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Siapa pembaca utama dokumen 'Business/User Requirements' menurut Sommerville?",
+    "a": "Arsitek sistem saja",
+    "b": "Manajer klien, end-users, dan insinyur klien",
+    "c": "QA eksternal saja",
+    "d": "Vendor perangkat keras",
+    "kunci": "b",
+    "penjelasan": "Business/User Requirements ditujukan untuk pihak bisnis dan pengguna, berbeda dengan System Requirements.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Wawancara efektif ketika:",
+    "a": "Dipilih semua orang secara acak",
+    "b": "Memilih pewawancara kunci, menyiapkan pertanyaan, dan verifikasi hasil",
+    "c": "Tidak ada follow-up",
+    "d": "Pertanyaan selalu terbuka saja",
+    "kunci": "b",
+    "penjelasan": "Lima langkah: memilih narasumber, desain pertanyaan, persiapan, pelaksanaan, dan tindak lanjut verifikasi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Kapan observasi berguna dalam elicitation?",
+    "a": "Saat pengguna lupa atau tidak menyadari langkah-langkah yang mereka lakukan",
+    "b": "Saat sistem tidak beroperasi",
+    "c": "Ketika hanya ingin opini",
+    "d": "Ketika dokumentasi sudah lengkap",
+    "kunci": "a",
+    "penjelasan": "Observasi menangkap aktivitas nyata yang sering tak diingat pengguna.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Perbedaan business/user requirements dan system requirements:",
+    "a": "Tidak ada perbedaan",
+    "b": "Business/user fokus pada apa yang dibutuhkan; system requirements mengarah ke bagaimana sistem akan memenuhinya",
+    "c": "System requirements ditulis untuk pelanggan",
+    "d": "Business requirements berisi desain database",
+    "kunci": "b",
+    "penjelasan": "Business/user menyatakan 'apa'; system menyatakan lebih teknis tentang 'bagaimana'.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

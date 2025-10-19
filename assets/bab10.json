@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Cohesion pada tingkat kelas/metode berarti:",
+    "a": "Seberapa fokus suatu modul pada satu tanggung jawab",
+    "b": "Seberapa banyak dependensi eksternalnya",
+    "c": "Seberapa sering dipanggil",
+    "d": "Seberapa kompleks konstruktornya",
+    "kunci": "a",
+    "penjelasan": "Cohesion tinggi berarti kelas/metode single-minded dan mudah dipahami/dirawat.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Coupling mengacu pada:",
+    "a": "Jumlah atribut privat",
+    "b": "Seberapa saling bergantung modul satu dengan yang lain",
+    "c": "Jumlah baris kode",
+    "d": "Jumlah pengecualian",
+    "kunci": "b",
+    "penjelasan": "Coupling tinggi menurunkan maintainability; perubahan berdampak menyebar.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Hukum Demeter (Law of Demeter) menganjurkan agar objek mengirim pesan ke:",
+    "a": "Objek acak di sistem",
+    "b": "Dirinya sendiri, atributnya, parameter, objek yang diciptakan metode, atau global",
+    "c": "Hanya superclass",
+    "d": "Semua objek yang dikenalnya",
+    "kunci": "b",
+    "penjelasan": "Membatasi jangkauan pemanggilan menjaga coupling tetap rendah.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Pelanggaraan Hukum Demeter biasanya terlihat sebagai:",
+    "a": "Method chaining bertingkat (train wreck) untuk menjangkau objek jauh",
+    "b": "Satu pemanggilan metode pada objek lokal",
+    "c": "Pemanggilan konstruktor",
+    "d": "Getter sederhana",
+    "kunci": "a",
+    "penjelasan": "Rantai panggilan ke objek milik objek lain meningkatkan coupling (a.b().c().d()).",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Connascence menggeneralisasi konsep:",
+    "a": "Encapsulation saja",
+    "b": "Cohesion dan coupling dengan encapsulation",
+    "c": "Inheritance",
+    "d": "Polymorphism",
+    "kunci": "b",
+    "penjelasan": "Connascence menilai seberapa perubahan di satu modul menuntut perubahan di modul lain pada berbagai level.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Prinsip connascence menyarankan:",
+    "a": "Maksimalkan di dalam boundary enkapsulasi, minimalkan melintasi boundary",
+    "b": "Minimalkan di dalam kelas",
+    "c": "Abaikan antar kelas",
+    "d": "Hindari enkapsulasi",
+    "kunci": "a",
+    "penjelasan": "Tingkatkan keterkaitan internal; kurangi ketergantungan lintas kelas/metode.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Aktivitas desain objek meliputi:",
+    "a": "Hanya coding",
+    "b": "Menambah spesifikasi (signature, pre/post/invariant), identifikasi reuse, restrukturisasi, optimasi",
+    "c": "Hanya testing",
+    "d": "Hanya mapping database",
+    "kunci": "b",
+    "penjelasan": "Lima aktivitas: menambah spesifikasi, reuse, restrukturisasi, optimasi, mapping ke bahasa implementasi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Contoh desain mendukung Law of Demeter:",
+    "a": "Meminta objek lain untuk memberikan sub-objeknya lalu mengakses anggotanya",
+    "b": "Menyediakan metode pengantar (facade) dalam objek untuk mengembalikan nilai yang dibutuhkan",
+    "c": "Menyimpan referensi global ke semua objek",
+    "d": "Mengakses atribut privat superclass secara langsung",
+    "kunci": "b",
+    "penjelasan": "Berikan operasi yang diperlukan agar pemanggil tidak harus menelusuri struktur internal.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Alasan mengapa cohesion tinggi itu baik:",
+    "a": "Meningkatkan kompleksitas",
+    "b": "Memudahkan pemahaman, implementasi, dan pemeliharaan",
+    "c": "Mengurangi enkapsulasi",
+    "d": "Meningkatkan coupling",
+    "kunci": "b",
+    "penjelasan": "Modul yang fokus lebih mudah dirawat dan diuji.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Contoh peluang reuse yang diidentifikasi saat desain:",
+    "a": "Menulis semua dari nol",
+    "b": "Memakai library, framework, pola, atau komponen yang sudah ada",
+    "c": "Menghindari API",
+    "d": "Menghapus dependensi build",
+    "kunci": "b",
+    "penjelasan": "Reuse bisa berupa class library, framework, design patterns, atau komponen/API.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Apa tujuan utama penggunaan process model dalam rekayasa perangkat lunak?",
+    "a": "Mengganti kebutuhan akan analisis",
+    "b": "Memberi struktur, konsistensi, dan arah kerja agar tujuan tercapai",
+    "c": "Memastikan semua proyek selesai lebih cepat",
+    "d": "Menghilangkan kebutuhan dokumentasi",
+    "kunci": "b",
+    "penjelasan": "Process model menyediakan kerangka aktivitas, aksi, dan tugas agar tim tahu siapa melakukan apa, kapan, dan bagaimana.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Urutan lima generic framework activities menurut Pressman adalah:",
+    "a": "Planning, Communication, Modeling, Construction, Deployment",
+    "b": "Communication, Planning, Modeling, Construction, Deployment",
+    "c": "Communication, Modeling, Planning, Construction, Deployment",
+    "d": "Planning, Construction, Communication, Modeling, Deployment",
+    "kunci": "b",
+    "penjelasan": "Urutannya: Communication → Planning → Modeling → Construction → Deployment.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Dalam konteks proses, 'activity' berbeda dari 'action' dan 'task' karena:",
+    "a": "Activity berfokus pada tujuan luas; action dan task lebih spesifik",
+    "b": "Activity selalu otomatis; action manual",
+    "c": "Task selalu lebih besar dari activity",
+    "d": "Action tidak menghasilkan artefak",
+    "kunci": "a",
+    "penjelasan": "Activity mengejar tujuan luas; action adalah kumpulan tugas; task berfokus pada tujuan kecil terdefinisi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Mengapa organisasi membutuhkan process model?",
+    "a": "Karena kegagalan sistem sering terjadi saat proses tidak selaras dengan tujuan organisasi",
+    "b": "Karena programmer selalu salah",
+    "c": "Karena hardware mahal",
+    "d": "Agar dapat menghindari testing",
+    "kunci": "a",
+    "penjelasan": "Banyak sistem gagal karena tidak memahami bagaimana sistem cocok dengan tujuan organisasi; model proses mengurangi risiko ini.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Pada aktivitas Planning, artefak utamanya adalah:",
+    "a": "Software project plan",
+    "b": "Source code",
+    "c": "User manual",
+    "d": "Test report",
+    "kunci": "a",
+    "penjelasan": "Perencanaan menghasilkan peta: daftar tugas teknis, risiko, sumber daya, produk kerja, dan jadwal.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Aktivitas Modeling bertujuan untuk:",
+    "a": "Meningkatkan performa runtime",
+    "b": "Membuat sketsa arsitektur dan bagaimana bagian-bagian cocok",
+    "c": "Mengganti pengujian unit",
+    "d": "Mengunci requirement agar tidak berubah",
+    "kunci": "b",
+    "penjelasan": "Modeling membantu memahami kebutuhan dan desain untuk memenuhinya secara arsitektural.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Proses flow yang menggambarkan aktivitas disusun berurutan tanpa tumpang tindih adalah:",
+    "a": "Iterative flow",
+    "b": "Parallel flow",
+    "c": "Sequential flow",
+    "d": "Evolutionary flow",
+    "kunci": "c",
+    "penjelasan": "Sequential flow menekankan urutan lurus; iterative/evolutionary menekankan perulangan/pertumbuhan bertahap.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Apa hasil dari aktivitas Construction?",
+    "a": "Rencana mitigasi risiko",
+    "b": "Kode dan pengujian untuk menemukan error",
+    "c": "Model arsitektur tingkat tinggi",
+    "d": "Dokumen kontrak",
+    "kunci": "b",
+    "penjelasan": "Construction mencakup pembuatan kode (manual/otomatis) dan pengujian.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Kapan aktivitas Deployment dilakukan?",
+    "a": "Sebelum komunikasi stakeholder",
+    "b": "Setelah coding selesai untuk menyerahkan produk dan menerima umpan balik",
+    "c": "Saat perencanaan risiko",
+    "d": "Bersamaan dengan elicitation",
+    "kunci": "b",
+    "penjelasan": "Deployment mengirimkan perangkat lunak ke pengguna untuk evaluasi dan umpan balik.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Pernyataan yang benar tentang 'process' adalah:",
+    "a": "Tidak membutuhkan alat dan teknik",
+    "b": "Memiliki entry/exit criteria, terorganisasi dalam urutan, dan menghasilkan produk kerja",
+    "c": "Hanya berlaku untuk tim kecil",
+    "d": "Tidak relevan untuk siklus hidup perangkat lunak",
+    "kunci": "b",
+    "penjelasan": "Ciri proses: kegiatan besar, entry/exit criteria, pengurutan, alat/teknik, dan hasil artefak.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

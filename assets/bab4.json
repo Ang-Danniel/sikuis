@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Agility dalam pengembangan perangkat lunak menekankan:",
+    "a": "Dokumentasi komprehensif di atas software bekerja",
+    "b": "Respon cepat terhadap perubahan, kolaborasi, dan pengiriman inkremental",
+    "c": "Kontrak lebih penting dari kolaborasi",
+    "d": "Perencanaan rinci tidak perlu diubah",
+    "kunci": "b",
+    "penjelasan": "Agile: respon perubahan, kolaborasi pelanggan, iterasi cepat, software bekerja lebih bernilai.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Manifesto Agile lebih menghargai:",
+    "a": "Proses dan alat dibanding individu dan interaksi",
+    "b": "Dokumentasi lengkap dibanding software bekerja",
+    "c": "Kolaborasi pelanggan dibanding negosiasi kontrak",
+    "d": "Mengikuti rencana dibanding merespon perubahan",
+    "kunci": "c",
+    "penjelasan": "Empat nilai: individu/interaksi; software bekerja; kolaborasi pelanggan; merespon perubahan.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Prinsip Agile yang benar adalah:",
+    "a": "Pengiriman software setiap tahun",
+    "b": "Pengiriman sering dengan preferensi rentang lebih pendek",
+    "c": "Menghindari keterlibatan pelanggan",
+    "d": "Dokumentasi adalah ukuran utama progres",
+    "kunci": "b",
+    "penjelasan": "Prinsip: deliver working software frequently; working software adalah ukuran progres.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Kapan pendekatan plan-driven lebih cocok daripada Agile?",
+    "a": "Lingkungan bisnis cepat berubah",
+    "b": "Sistem safety-critical yang membutuhkan analisis lengkap",
+    "c": "Proyek kecil tanpa regulasi",
+    "d": "Tim senior sangat otonom",
+    "kunci": "b",
+    "penjelasan": "Sistem safety-critical cenderung cocok dengan plan-driven yang terdokumentasi ketat.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Dalam XP, 'user stories' digunakan untuk:",
+    "a": "Mendefinisikan arsitektur formal",
+    "b": "Menangkap kebutuhan dan mengestimasi biaya tiap cerita",
+    "c": "Mengganti semua pengujian",
+    "d": "Menentukan kontrak vendor",
+    "kunci": "b",
+    "penjelasan": "XP memulai dengan user stories, estimasi, pengelompokan ke inkremen, dan velocity setelah iterasi pertama.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Konsep 'refactoring' dalam XP adalah:",
+    "a": "Menambah fitur tanpa tes",
+    "b": "Perbaikan desain bertahap tanpa mengubah perilaku eksternal",
+    "c": "Menulis ulang sistem total",
+    "d": "Menghapus dokumentasi",
+    "kunci": "b",
+    "penjelasan": "Refactoring memperbaiki struktur internal dengan mempertahankan perilaku.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Kenapa 'face-to-face conversation' dianggap efektif dalam Agile?",
+    "a": "Lebih cepat dan mengurangi miskomunikasi",
+    "b": "Menghilangkan kebutuhan alat",
+    "c": "Mengganti code review",
+    "d": "Hanya cocok untuk tim kecil",
+    "kunci": "a",
+    "penjelasan": "Prinsip Agile: komunikasi langsung paling efisien dan efektif.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Agile menekankan 'sustainable development' yang berarti:",
+    "a": "Kerja lembur intens sampai rilis",
+    "b": "Laju kerja konstan yang dapat dipertahankan sponsor, developer, dan pengguna",
+    "c": "Tidak ada deadline",
+    "d": "Sprint sepanjang 1 tahun",
+    "kunci": "b",
+    "penjelasan": "Prinsip: pace yang berkelanjutan tanpa burnout.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Perbedaan utama Agile vs plan-driven:",
+    "a": "Agile tidak perlu desain",
+    "b": "Agile mengintegrasikan requirement, desain, dan pengujian selama implementasi",
+    "c": "Plan-driven tanpa dokumentasi",
+    "d": "Agile melarang rencana",
+    "kunci": "b",
+    "penjelasan": "Agile memadukan aktivitas lintas fase; plan-driven memisahkan fase dengan dokumen formal.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Anti-pattern 'silver bullet syndrome' pada desain adalah:",
+    "a": "Percaya satu alat/teknik menyelesaikan semua masalah",
+    "b": "Menghindari perubahan",
+    "c": "Hyper-iteration",
+    "d": "Zero documentation",
+    "kunci": "a",
+    "penjelasan": "Hindari menganggap satu tool akan menyelesaikan semua masalah dan menghemat biaya/waktu secara magis.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

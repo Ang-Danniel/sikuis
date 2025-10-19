@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Tujuan fase analisis vs desain adalah:",
+    "a": "Analisis: bagaimana; Desain: apa",
+    "b": "Analisis: apa yang bisnis butuhkan; Desain: bagaimana memberikannya",
+    "c": "Keduanya sama",
+    "d": "Analisis untuk coding, desain untuk testing",
+    "kunci": "b",
+    "penjelasan": "Analisis fokus kebutuhan; desain fokus solusi implementasi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Walkthrough dalam V&V model analisis adalah:",
+    "a": "Uji performa",
+    "b": "Peer review model/diagram untuk menguji kesetiaan dan menemukan kesalahan",
+    "c": "Load testing",
+    "d": "Penggantian alat",
+    "kunci": "b",
+    "penjelasan": "Walkthrough melibatkan presenter dan scribe, bertujuan menemukan fault, bukan memperbaikinya saat itu juga.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Faktor yang harus dihindari dalam desain:",
+    "a": "Feature creep dan silver bullet syndrome",
+    "b": "Validasi kebutuhan",
+    "c": "Dokumentasi arsitektur",
+    "d": "Refactoring",
+    "kunci": "a",
+    "penjelasan": "Feature creep (penambahan fitur tak vital) dan silver bullet syndrome (alat sakti).",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Factoring berarti:",
+    "a": "Membatalkan kelas",
+    "b": "Membuat modul baru via abstraksi/penyaringan perbedaan (refinement)",
+    "c": "Hanya mengelompokkan paket",
+    "d": "Menulis ulang database",
+    "kunci": "b",
+    "penjelasan": "Factoring menciptakan kelas baru melalui abstraksi dan refinement untuk menangani kesamaan/perbedaan.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Partitions & layers digunakan untuk:",
+    "a": "Menaikkan coupling",
+    "b": "Membuat subsistem, mengelompokkan kolaborasi, dan memisahkan concern (mis. MVC)",
+    "c": "Menggabungkan semua modul",
+    "d": "Menyembunyikan aktor",
+    "kunci": "b",
+    "penjelasan": "Partisi/layer memecah kompleksitas dan memisahkan concern seperti UI, data, logika.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Package diagram digunakan untuk:",
+    "a": "Mengukur throughput",
+    "b": "Mengelompokkan unit dan memodel ketergantungan antar paket",
+    "c": "Menentukan ERD",
+    "d": "Mendefinisikan runtime thread",
+    "kunci": "b",
+    "penjelasan": "Package diagram mengurangi kompleksitas dengan grouping dan dependency antar paket.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Desain yang baik harus:",
+    "a": "Melaksanakan semua requirement eksplisit dan mengakomodasi requirement implisit",
+    "b": "Hanya requirement eksplisit",
+    "c": "Hanya mudah dibaca",
+    "d": "Hanya fokus data",
+    "kunci": "a",
+    "penjelasan": "Desain harus komprehensif (data, fungsional, perilaku) dan menjadi panduan implementasi/pengujian.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Transisi dari analisis ke desain pada kelas:",
+    "a": "Langsung coding",
+    "b": "Memperhalus analysis classes menjadi design classes dengan detail implementasi",
+    "c": "Menghapus semua atribut",
+    "d": "Mengganti aktor dengan tabel",
+    "kunci": "b",
+    "penjelasan": "Di desain, class dilengkapi detail sehingga siap diimplementasikan.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Relasi antara paket ditunjukkan sebagai:",
+    "a": "Inheritance",
+    "b": "Dependency",
+    "c": "Aggregation",
+    "d": "State transition",
+    "kunci": "b",
+    "penjelasan": "Ketergantungan antar paket dimodelkan dengan dependency.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Contoh lapisan pada arsitektur yang disarankan:",
+    "a": "Problem domain, data management, human-computer interaction, foundation, physical architecture",
+    "b": "UI saja",
+    "c": "Database saja",
+    "d": "Network saja",
+    "kunci": "a",
+    "penjelasan": "Contoh layering untuk memisah concern dan mengorganisir sistem.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

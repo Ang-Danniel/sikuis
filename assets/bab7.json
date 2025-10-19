@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Process model dengan Data Flow Diagram (DFD) digunakan untuk:",
+    "a": "Menunjukkan struktur kelas",
+    "b": "Memformalkan bagaimana proses bisnis berjalan dan bagaimana data mengalir",
+    "c": "Menentukan skema fisik database",
+    "d": "Mengganti kebutuhan testing",
+    "kunci": "b",
+    "penjelasan": "DFD memvisualisasi aktivitas dan aliran data antar proses, store, dan entitas eksternal.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Setiap proses di DFD harus dinamai dengan:",
+    "a": "Kata benda saja",
+    "b": "Frasa verba-nominal, singkat dan jelas (mis. 'Ambil Data Pasien')",
+    "c": "Kalimat panjang dengan 'dan'",
+    "d": "Kode numerik saja",
+    "kunci": "b",
+    "penjelasan": "Nama proses diawali verba dan diakhiri nomina; sebaiknya satu aktivitas.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Elemen DFD yang menyimpan kumpulan data adalah:",
+    "a": "Data flow",
+    "b": "External entity",
+    "c": "Data store",
+    "d": "Process",
+    "kunci": "c",
+    "penjelasan": "Data store mewakili penyimpanan data; dinamai nomina dan biasanya diberi ID.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Aturan koneksi data flow:",
+    "a": "Boleh menghubungkan store ke store langsung",
+    "b": "Selalu bermula atau berakhir pada sebuah proses",
+    "c": "Boleh menghubungkan entity ke entity",
+    "d": "Boleh membentuk siklus tanpa proses",
+    "kunci": "b",
+    "penjelasan": "Setiap data flow harus masuk/keluar sebuah proses.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Context diagram menampilkan:",
+    "a": "Semua proses rinci level 1",
+    "b": "Satu proses tunggal (proses 0), semua entitas eksternal, dan aliran data antar mereka",
+    "c": "Semua tabel database",
+    "d": "Semua keputusan IF",
+    "kunci": "b",
+    "penjelasan": "Context diagram merekap keseluruhan sistem sebagai satu proses.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Balancing pada DFD berarti:",
+    "a": "Membatasi jumlah proses",
+    "b": "Menjamin masukan/keluaran pada level parent konsisten dengan level turunan",
+    "c": "Menghapus data flow alternatif",
+    "d": "Mengganti nama proses",
+    "kunci": "b",
+    "penjelasan": "Balancing memastikan konsistensi antar level dekomposisi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Level 0 pada DFD menunjukkan:",
+    "a": "Rincian proses tunggal menjadi proses-proses utama",
+    "b": "Semua logika IF",
+    "c": "Detail implementasi basis data",
+    "d": "Tidak ada entitas eksternal",
+    "kunci": "a",
+    "penjelasan": "Level 0 memecah proses 0 menjadi proses-proses besar beserta aliran data dan store.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Alternatif data flow biasanya muncul ketika:",
+    "a": "Tidak ada percabangan",
+    "b": "Ada kondisi (mis. IF) yang menghasilkan keluaran berbeda",
+    "c": "Proses tak memiliki input",
+    "d": "Semua data statis",
+    "kunci": "b",
+    "penjelasan": "Alternatif alur data mencerminkan percabangan kondisi proses.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Pernyataan yang benar tentang data flow:",
+    "a": "Tidak perlu nama",
+    "b": "Sebaiknya dinamai dengan nomina yang merepresentasikan paket data",
+    "c": "Selalu dua arah",
+    "d": "Boleh langsung entity ke store",
+    "kunci": "b",
+    "penjelasan": "Penamaan data flow menggunakan nomina dan arah jelas melalui panah.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Tujuan dekomposisi DFD:",
+    "a": "Mengurangi jumlah entitas eksternal",
+    "b": "Menguraikan proses kompleks menjadi diagram anak yang lebih rinci",
+    "c": "Mengganti use case",
+    "d": "Menambah jumlah data store",
+    "kunci": "b",
+    "penjelasan": "Dekomposisi memecah proses agar dapat dipahami dan dirancang lebih detail.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]

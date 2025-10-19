@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center py-10">
+  <div id="quiz-container" class="w-full max-w-2xl bg-white shadow-lg p-6 rounded-2xl">
+    <div id="question-container"></div>
+    <div class="flex justify-between mt-6">
+      <button id="prev" class="bg-gray-300 text-gray-800 px-4 py-2 rounded disabled:opacity-50">Sebelumnya</button>
+      <button id="next" class="bg-blue-500 text-white px-4 py-2 rounded">Berikutnya</button>
+    </div>
+  </div>
+  <script src='/js/quiz.js'></script>
+</body>
+</html>

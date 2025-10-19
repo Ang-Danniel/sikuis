@@ -1,0 +1,122 @@
+[
+  {
+    "nomor": 1,
+    "pertanyaan": "Apa yang dimaksud prescriptive process models?",
+    "a": "Model yang bebas struktur dan fleksibel total",
+    "b": "Sekumpulan elemen proses dan alur kerja yang ditetapkan dan dapat diprediksi",
+    "c": "Metode tanpa dokumentasi",
+    "d": "Hanya model untuk startup",
+    "kunci": "b",
+    "penjelasan": "Prescriptive berfokus pada struktur dan keteraturan alur kerja sehingga dapat diprediksi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 2,
+    "pertanyaan": "Waterfall cocok digunakan ketika:",
+    "a": "Kebutuhan tetap dan terdefinisi dengan baik sejak awal",
+    "b": "Ada ketidakpastian besar",
+    "c": "Tim belum paham domain",
+    "d": "Diperlukan prototyping intens",
+    "kunci": "a",
+    "penjelasan": "Waterfall efektif saat requirement stabil dan jelas di awal.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 3,
+    "pertanyaan": "Kelemahan utama Waterfall dalam praktik adalah:",
+    "a": "Dokumentasinya terlalu sedikit",
+    "b": "Sulit mengakomodasi perubahan di tengah proyek dan umpan balik terlambat",
+    "c": "Tidak ada QA",
+    "d": "Tidak memerlukan analisis",
+    "kunci": "b",
+    "penjelasan": "Perubahan sulit diakomodasi dan produk bekerja terlambat muncul.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 4,
+    "pertanyaan": "Model V-shaped menekankan:",
+    "a": "Tanpa pengujian formal",
+    "b": "QA (verifikasi dan validasi) yang terkait pada tiap aktivitas pengembangan",
+    "c": "Hanya desain rinci",
+    "d": "Dokumentasi minim",
+    "kunci": "b",
+    "penjelasan": "V-Model memetakan tahap pengembangan ke aktivitas pengujian yang korespondens.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 5,
+    "pertanyaan": "Dalam incremental model, perangkat lunak dikembangkan:",
+    "a": "Sekaligus penuh",
+    "b": "Melalui beberapa inkremen fungsional",
+    "c": "Tanpa rilis",
+    "d": "Hanya prototipe",
+    "kunci": "b",
+    "penjelasan": "Setiap inkremen menambah fungsionalitas yang bisa dirilis ke pengguna.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 6,
+    "pertanyaan": "Kapan incremental model cocok?",
+    "a": "Saat requirement dapat dipartisi menjadi subsistem dan ingin cepat memberi nilai",
+    "b": "Saat tidak ada batasan waktu rilis",
+    "c": "Saat proyek satu kali rilis besar",
+    "d": "Saat tim tunggal tanpa stakeholder",
+    "kunci": "a",
+    "penjelasan": "Incremental pas untuk pembagian subsistem dan kebutuhan rilis cepat.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 7,
+    "pertanyaan": "Perbedaan utama evolutionary dan incremental:",
+    "a": "Tidak ada perbedaan",
+    "b": "Incremental menambah fitur per rilis; evolutionary menumbuhkan solusi ketika detail belum jelas dan berkembang seiring waktu",
+    "c": "Evolutionary selalu tanpa rilis",
+    "d": "Incremental tanpa desain",
+    "kunci": "b",
+    "penjelasan": "Evolutionary fokus evolusi produk ketika detail berubah/bertambah.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 8,
+    "pertanyaan": "Tujuan utama prototyping adalah:",
+    "a": "Menghindari analisis",
+    "b": "Membantu memahami kebutuhan ketika masih kabur dan mengeksplorasi solusi",
+    "c": "Mengganti semua dokumen",
+    "d": "Hanya untuk UI kosmetik",
+    "kunci": "b",
+    "penjelasan": "Prototipe membantu stakeholder dan tim menyamakan visi dan mengeksplor opsi.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 9,
+    "pertanyaan": "Ciri khas Spiral model adalah:",
+    "a": "Tanpa manajemen risiko",
+    "b": "Berbasis tahapan linier",
+    "c": "Setiap putaran memuat penetapan tujuan, penilaian & reduksi risiko, pengembangan & validasi, dan perencanaan",
+    "d": "Tidak cocok untuk proyek besar",
+    "kunci": "c",
+    "penjelasan": "Spiral eksplisit memuat kegiatan manajemen risiko di tiap loop.",
+    "gambar": "",
+    "ada_gambar": false
+  },
+  {
+    "nomor": 10,
+    "pertanyaan": "Kelemahan Spiral model:",
+    "a": "Tidak mendukung iterasi",
+    "b": "Membutuhkan keahlian risk assessment dan sulit diyakinkan ke stakeholder tertentu",
+    "c": "Tidak dapat digunakan pada safety-critical",
+    "d": "Selalu lebih cepat",
+    "kunci": "b",
+    "penjelasan": "Spiral menuntut kompetensi risiko dan kadang sulit diterima sponsor tradisional.",
+    "gambar": "",
+    "ada_gambar": false
+  }
+]
